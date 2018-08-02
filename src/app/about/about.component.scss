@@ -1,0 +1,31 @@
+
+// .container {
+//   border-top: 2px solid #f3969a;
+// }
+i {
+  color: #f3969a;
+}
+
+img {
+  width: 80%;
+  margin-left: 50px;
+}
+
+@media (min-width: 614px) {
+  img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 84%;
+  }
+}
+
+@media (min-width: 992px) {
+  img {
+    width: 50%;
+    margin-left: 0px;
+  }
+}
