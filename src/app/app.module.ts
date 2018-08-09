@@ -9,11 +9,13 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { VideosComponent } from './videos/videos.component';
 
 const appRoutes: Routes = [
   { path: '', component: AboutComponent },
   { path: 'portfolio', component: PortfolioComponent },
-  { path: 'contact', component: ContactComponent}
+  { path: 'contact', component: ContactComponent},
+  { path: 'videos', component: VideosComponent},
 ];
 
 @NgModule({
@@ -23,7 +25,8 @@ const appRoutes: Routes = [
     FooterComponent,
     AboutComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,
